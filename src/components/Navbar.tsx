@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useSession, signOut } from 'next-auth/react';
 import { Button } from './ui/button';
 import { User } from 'next-auth';
-import Image from 'next/image';
 
 function Navbar() {
   const { data: session } = useSession();
